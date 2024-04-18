@@ -36,7 +36,7 @@ $ python main.py --mode second_stage --num_mask 10 --num_msablock 15 --epochs 30
 ```
 ### spadata
 1. Download spadata and put it into the folder "./dataset/spadata"
-2. Download the index file of spadata from [Google Drive](https://drive.google.com/open?id=1-flV8M3V2lp2_BK6sPmcJsvXOc_Os7lf&usp=drive_fs), and and put them into "./src/data/".
+2. Download the index file of spadata from [Google Drive](https://drive.google.com/drive/folders/1-flV8M3V2lp2_BK6sPmcJsvXOc_Os7lf?usp=sharing), and and put them into "./src/data/".
 2. Use ./src/data/srdata_spadata.py instead of ./src/data/srdata.py, you can simply rename the former as 'srdata.py'.
 3. Begining training:
 ```
@@ -46,7 +46,7 @@ $ python main.py --mode second_stage --num_mask 10 --num_msablock 15 --epochs 30
 ```
 
 ## Evaluation
-Please download the checkpoints from [Google Drive](https://drive.google.com/open?id=1x2IhV6G5IeoH4bkC52S5T5CS3YxpIohv&usp=drive_fs), and put them into respective folder.
+Please download the checkpoints from [Google Drive](https://drive.google.com/drive/folders/1x2IhV6G5IeoH4bkC52S5T5CS3YxpIohv?usp=sharing), and put them into respective folder.
 
 For example, the fold for rain200H should be like: "./experiment/rain200H/stage2nd_Save/model"
 
